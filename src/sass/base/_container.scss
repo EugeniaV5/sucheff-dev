@@ -10,3 +10,21 @@
     margin: 0 auto;
   }
 }
+
+//  OR
+// .container {
+//   padding: 0 20px;
+
+//   @include mobile {
+//     width: 480px;
+//     margin: 0 auto;
+//   }
+
+//   @include tablet {
+//     width: 740px;
+//   }
+
+//   @include desktop {
+//     width: 1090px;
+//   }
+// }
