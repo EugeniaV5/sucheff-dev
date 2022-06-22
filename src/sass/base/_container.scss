@@ -1,0 +1,12 @@
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+// 375+
+@include mobile {
+  .container {
+    width: 332px;
+    margin: 0 auto;
+  }
+}
