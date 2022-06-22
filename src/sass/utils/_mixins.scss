@@ -49,3 +49,10 @@
   align-items: $al;
   justify-content: $jc;
 }
+
+// media query
+@mixin mobile {
+  @media screen and (min-width: 375px) {
+    @content;
+  }
+}
